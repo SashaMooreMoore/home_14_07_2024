@@ -1,0 +1,131 @@
+body {
+    width: 1440px;
+    margin: auto;
+}
+
+.header__content {
+    display: flex;
+    justify-content:space-between;
+    margin: 50px 200px 5px 150px;
+}
+
+.header__content button {
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(235, 56, 56, 0.845);
+    color:azure;
+    height: 35px;
+    width: 170px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header__content button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+body {
+    color: red;
+}
+
+.logo {
+  width: 200px;
+  height: 50px;
+}
+
+.menu {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color:  black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:first-child {
+    color: red;
+}
+
+.menu a:hover {
+    scale: 120%;
+    transition: 0.3s;
+}
+
+#angle_bracket {
+    color: red;
+}
+
+.banner {
+    width: 100%;
+    height: 470px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-self: center;
+}
+
+.banner__content {
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    background: linear-gradient(to right, rgb(11, 3, 3), rgb(247, 142, 142)) ;
+    border-radius: 15px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.banner__content h1 {
+    margin-top: 50px;
+    max-width: 300px;
+    color: white;
+    font-family:Verdana, ;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+.banner__content p {
+    color: white;
+    line-height: 0.5em;
+    margin-left: 100px;
+}
+.banner__content p:last-of-type{
+    margin-bottom: 70px;
+}
+
+.banner__content a {
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.banner__content a:first-of-type{
+    margin-left: 100px;
+    padding: 11px;
+    background-color: rgb(219, 54, 54);
+    color: white;
+    border-radius: 20px;
+}
+
+.banner__content a:last-of-type{
+    margin-left: 30px;
+    padding: 11px;
+    background-color: white;
+    color: rgb(232, 59, 59);
+    font-weight:500;
+    border-radius: 20px;
+}
+
+.photo {
+    width: 400px;
+    height: 300px;
+    background-image: url("../img/pngtree-sneakers-hand-drawn-free-png-shoe-element-sneakers-png-image_2625471-Photoroom.png");
+    background-size: cover;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 0px;
+    left: 800px;
+
+}
